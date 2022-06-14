@@ -1,0 +1,56 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+$rounded-corners: 15px;
+$shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+$bg-color-1: #f8f8ff;
+$bg-color-2: white;
+$ctrl-padding-bottom: 0.5rem;
+
+.app{
+	position: relative;
+	padding: 3rem;
+	height: 100vh;
+	margin:auto;
+	background: #ffffff url('./media/forest.jpg') no-repeat center center;
+	
+
+}
+
+.menu{
+	width: 300px;
+	padding: 1rem;
+	background-color: #ffffff;
+	position: absolute;
+	top: 1rem;
+	left: 1rem;
+	z-index: 10;
+	border-radius: $rounded-corners;
+
+	.menu-section{
+		margin-bottom:1rem;
+	}
+
+	.menu-toggle{
+		display: flex;
+		justify-content: space-between;
+	}
+	
+}
+
+.chart{
+	padding: 1rem;
+	width:90%;
+	margin:auto;
+	background-color: rgba(255, 255, 255, 0.9);
+	backdrop-filter: blur(2px);
+	border-radius: $rounded-corners;
+	
+}
+
+.shadow{
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
