@@ -1,0 +1,21 @@
+Update data floats to decimal 6,3
+
+update database calls to use prepared queries
+
+add authentication some how
+
+make endpoint for getting cities, and displayable fields OR make those baked into the app
+- definetly just bake that into the app for the first go around
+- get data will be the primary endpoint - pass in startDate, endDate, dataPoint, and cities
+- this returns A LOT of data, will need to determine how to modulate that a little bit.
+
+ - need to make an endpoint that will allow user to get teh currently selected data as a CSV, 
+ - need to make an endpoint that will allow the user to get ALL of the data as a CSV
+ - - There is a way to write a file to the server, and to send that back as a downloadable file
+ - - Have to determine how to save it / dispose of it so it doesn't clutter up the server
+
+ - Add unit testing, integration testing, smoke testing, and possibly security testing
+
+ -need to hide the database credetials somewhwere so they aren't exposed like they are now
+
+ - updated PHP to version 8.1
